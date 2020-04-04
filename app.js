@@ -3,6 +3,9 @@
  * Module dependencies.
  */
 
+ 
+
+
 var express = require('express');
 var http = require('http');
 var path = require('path');
@@ -13,7 +16,6 @@ var index = require('./routes/index');
 // var user = require('./routes/user');
 
 var app = express();
-
 // all environments
 app.set('port', process.env.PORT || 3000);
 app.set('views', path.join(__dirname, 'views'));
